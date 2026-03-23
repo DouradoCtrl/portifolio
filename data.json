@@ -1,0 +1,291 @@
+{
+  "hero": {
+    "headline": "Samuel Gomes Dourado | Full Stack Dev",
+    "pitch": "Desenvolvedor full stack criando soluções escaláveis com tech modernas conectando a elegância do Dourado à profundidade do Roxo.",
+    "cta": "Projetos",
+    "githubUrl": "https://github.com/dourado-kayros",
+    "linkedinUrl": "https://linkedin.com/in/dourado-kayros"
+  },
+  "about": {
+    "bio": "Sou um desenvolvedor apaixonado por tecnologia, com expertise no desenvolvimento de soluções completas, desde o backend até a experiência do usuário no frontend. Tenho forte atuação na construção de arquiteturas escaláveis e no uso de práticas de DevOps para garantir entregas contínuas e seguras.",
+    "timeline": [
+      {
+        "year": "2023 - Presente",
+        "title": "Senior Full Stack Dev",
+        "company": "Tech Solutions Inc.",
+        "description": "Liderança técnica em projetos de alta concorrência usando React, Vue, PHP e Python. Implementação de CI/CD com Docker e Linux."
+      },
+      {
+        "year": "2020 - 2023",
+        "title": "Full Stack Developer",
+        "company": "Web Inova",
+        "description": "Desenvolvimento de APIs RESTful em Python e PHP, com interfaces ricas em Vue.js. Gestão de infraestrutura em servidores Linux."
+      },
+      {
+        "year": "2018 - 2020",
+        "title": "Backend Developer",
+        "company": "Sistemas Digitais",
+        "description": "Criação de sistemas legados em PHP e migração para arquiteturas modernas usando Docker."
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "PHP",
+      "level": 90,
+      "icon": "FaPhp",
+      "color": "#777BB4",
+      "category": "Stacks",
+      "isMain": true
+    },
+    {
+      "name": "Laravel",
+      "level": 85,
+      "icon": "FaLaravel",
+      "color": "#FF2D20",
+      "category": "Stacks",
+      "isMain": true
+    },
+    {
+      "name": "CakePHP",
+      "level": 80,
+      "icon": "SiCakephp",
+      "color": "#D33C43",
+      "category": "Stacks",
+      "isMain": false
+    },
+    {
+      "name": "CodeIgniter",
+      "level": 85,
+      "icon": "SiCodeigniter",
+      "color": "#EF4223",
+      "category": "Stacks",
+      "isMain": true
+    },
+    {
+      "name": "Symfony",
+      "level": 80,
+      "icon": "SiSymfony",
+      "color": "#000000",
+      "category": "Stacks",
+      "isMain": true
+    },
+    {
+      "name": "Python",
+      "level": 85,
+      "icon": "FaPython",
+      "color": "#3776AB",
+      "category": "Stacks",
+      "isMain": false
+    },
+    {
+      "name": "React",
+      "level": 90,
+      "icon": "FaReact",
+      "color": "#61DAFB",
+      "category": "Stacks",
+      "isMain": true
+    },
+    {
+      "name": "Vue.js",
+      "level": 80,
+      "icon": "FaVuejs",
+      "color": "#4FC08D",
+      "category": "Stacks",
+      "isMain": false
+    },
+    {
+      "name": "MySQL",
+      "level": 85,
+      "icon": "SiMysql",
+      "color": "#4479A1",
+      "category": "Banco de Dados",
+      "isMain": true
+    },
+    {
+      "name": "PostgreSQL",
+      "level": 80,
+      "icon": "SiPostgresql",
+      "color": "#4169E1",
+      "category": "Banco de Dados",
+      "isMain": true
+    },
+    {
+      "name": "MongoDB",
+      "level": 75,
+      "icon": "SiMongodb",
+      "color": "#47A248",
+      "category": "Banco de Dados",
+      "isMain": true
+    },
+    {
+      "name": "Docker",
+      "level": 85,
+      "icon": "FaDocker",
+      "color": "#2496ED",
+      "category": "Linux",
+      "isMain": true
+    },
+    {
+      "name": "Nginx",
+      "level": 85,
+      "icon": "SiNginx",
+      "color": "#009639",
+      "category": "Servidores",
+      "isMain": false
+    },
+    {
+      "name": "Apache",
+      "level": 80,
+      "icon": "SiApache",
+      "color": "#D22128",
+      "category": "Servidores",
+      "isMain": false
+    },
+    {
+      "name": "Caddy",
+      "level": 80,
+      "icon": "SiCaddy",
+      "color": "#00ADD8",
+      "category": "Servidores",
+      "isMain": false
+    },
+    {
+      "name": "Linux",
+      "level": 95,
+      "icon": "FaLinux",
+      "color": "#FCC624",
+      "category": "Linux",
+      "isMain": false
+    },
+    {
+      "name": "Ubuntu",
+      "level": 90,
+      "icon": "FaUbuntu",
+      "color": "#E95420",
+      "category": "Linux",
+      "isMain": false
+    },
+    {
+      "name": "Fedora",
+      "level": 85,
+      "icon": "SiFedora",
+      "color": "#51A2DA",
+      "category": "Linux",
+      "isMain": false
+    },
+    {
+      "name": "Arch Linux",
+      "level": 80,
+      "icon": "SiArchlinux",
+      "color": "#1793D1",
+      "category": "Linux",
+      "isMain": false
+    },
+    {
+      "name": "Rocky Linux",
+      "level": 80,
+      "icon": "SiRockylinux",
+      "color": "#10B981",
+      "category": "Linux",
+      "isMain": false
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Sistema de Gestão Escolar",
+      "description": "Uma plataforma completa para escolas com dashboard de métricas e portal do aluno.",
+      "image": "/placeholder/project1.avif",
+      "tags": [
+        "React",
+        "PHP",
+        "Docker"
+      ],
+      "githubUrl": "#",
+      "demoUrl": "#"
+    },
+    {
+      "id": 2,
+      "title": "E-commerce de Eletrônicos",
+      "description": "Loja virtual de alta performance com integração de pagamentos e controle de estoque em tempo real.",
+      "image": "/placeholder/project2.avif",
+      "tags": [
+        "Vue.js",
+        "Python",
+        "PostgreSQL"
+      ],
+      "githubUrl": "#",
+      "demoUrl": "#"
+    },
+    {
+      "id": 3,
+      "title": "App de Logística",
+      "description": "Aplicativo para rastreamento de frotas e otimização de rotas com mapa interativo.",
+      "image": "/placeholder/project3.avif",
+      "tags": [
+        "React Native",
+        "Python",
+        "AWS"
+      ],
+      "githubUrl": "#",
+      "demoUrl": "#"
+    },
+    {
+      "id": 4,
+      "title": "Plataforma de Cursos",
+      "description": "Sistema EAD com streaming de vídeo, fóruns de discussão e certificação automática.",
+      "image": "/placeholder/project4.avif",
+      "tags": [
+        "Next.js",
+        "PHP",
+        "Docker"
+      ],
+      "githubUrl": "#",
+      "demoUrl": "#"
+    },
+    {
+      "id": 5,
+      "title": "Dashboard Analítico",
+      "description": "Ferramenta de BI para acompanhamento de KPIs de múltiplas fontes de dados.",
+      "image": "/placeholder/project5.avif",
+      "tags": [
+        "React",
+        "Python",
+        "Linux"
+      ],
+      "githubUrl": "#",
+      "demoUrl": "#"
+    },
+    {
+      "id": 6,
+      "title": "Automação de Infraestrutura",
+      "description": "Scripts e playbooks para provisionamento automático de servidores em cloud.",
+      "image": "/placeholder/project6.avif",
+      "tags": [
+        "Docker",
+        "Linux",
+        "Python"
+      ],
+      "githubUrl": "#",
+      "demoUrl": "#"
+    }
+  ],
+  "socials": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/dourado-kayros",
+      "icon": "FaGithub"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/dourado-kayros",
+      "icon": "FaLinkedin"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/",
+      "icon": "FaTwitter"
+    }
+  ]
+}
