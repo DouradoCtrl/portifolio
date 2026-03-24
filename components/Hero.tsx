@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import Image from "next/image";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -74,8 +74,8 @@ export default function Hero({ data }: { data: any }) {
               <FaLinkedin className="w-8 h-8" />
             </a>
             <a href="#" className="text-neutral-500 hover:text-amber-400 dark:text-neutral-400 dark:hover:text-amber-400 transition-colors">
-              <span className="sr-only">Twitter</span>
-              <FaTwitter className="w-8 h-8" />
+              <span className="sr-only">Instagram</span>
+              <FaInstagram className="w-8 h-8" />
             </a>
           </motion.div>
         </div>

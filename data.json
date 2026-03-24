@@ -4,7 +4,8 @@
     "pitch": "Desenvolvedor Full Stack especializado em ecossistema Laravel. Construindo backends robustos que alimentam interfaces modernas e reativas, focadas em performance e experiência do usuário.",
     "cta": "Projetos",
     "githubUrl": "https://github.com/DouradoCtrl",
-    "linkedinUrl": "https://linkedin.com/in/dourado-dev"
+    "linkedinUrl": "https://linkedin.com/in/dourado-dev",
+    "instagramUrl": "https://instagram.com/dourado.ti"
   },
   "about": {
     "bio": "Sou um desenvolvedor apaixonado por tecnologia, com expertise no desenvolvimento de soluções completas, desde o backend até a experiência do usuário no frontend. Tenho forte atuação na construção de arquiteturas escaláveis e no uso de práticas de DevOps para garantir entregas contínuas e seguras.",
@@ -283,9 +284,9 @@
       "icon": "FaLinkedin"
     },
     {
-      "platform": "Twitter",
-      "url": "https://twitter.com/",
-      "icon": "FaTwitter"
+      "platform": "Instagram",
+      "url": "https://instagram.com/dourado.ti",
+      "icon": "FaInstagram"
     }
   ]
 }
