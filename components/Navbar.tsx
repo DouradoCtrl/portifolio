@@ -1,14 +1,18 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { FiMenu, FiX } from "react-icons/fi";
+import { useTheme } from "next-themes";
+import { FiSun, FiMoon, FiMenu, FiX } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Navbar() {
+  const [mounted, setMounted] = useState(false);
+  const { resolvedTheme, setTheme } = useTheme();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
     };
@@ -58,10 +62,37 @@ export default function Navbar() {
                 {link.name}
               </a>
             ))}
+
+            <div className="flex items-center justify-center w-10 h-10">
+              {mounted ? (
+                <button
+                  onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
+                  className="p-2 rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors"
+                  aria-label="Alternar Tema"
+                >
+                  {resolvedTheme === "dark" ? <FiSun className="w-5 h-5" /> : <FiMoon className="w-5 h-5" />}
+                </button>
+              ) : (
+                <div className="w-9 h-9" />
+              )}
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center gap-4">
+            <div className="flex items-center justify-center w-10 h-10">
+              {mounted ? (
+                <button
+                  onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
+                  className="p-2 rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors"
+                  aria-label="Alternar Tema"
+                >
+                  {resolvedTheme === "dark" ? <FiSun className="w-5 h-5" /> : <FiMoon className="w-5 h-5" />}
+                </button>
+              ) : (
+                <div className="w-9 h-9" />
+              )}
+            </div>
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="text-neutral-600 dark:text-neutral-300 focus:outline-none"
