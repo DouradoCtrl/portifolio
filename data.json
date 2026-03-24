@@ -96,6 +96,14 @@
       "isMain": false
     },
     {
+      "name": "NextJs",
+      "level": 85,
+      "icon": "SiNextdotjs",
+      "color": "#000000",
+      "category": "Stacks",
+      "isMain": false
+    },
+    {
       "name": "MySQL",
       "level": 85,
       "icon": "SiMysql",
@@ -152,14 +160,6 @@
       "isMain": false
     },
     {
-      "name": "Linux",
-      "level": 95,
-      "icon": "FaLinux",
-      "color": "#FCC624",
-      "category": "Linux",
-      "isMain": false
-    },
-    {
       "name": "Ubuntu",
       "level": 90,
       "icon": "FaUbuntu",
@@ -188,6 +188,14 @@
       "level": 80,
       "icon": "SiRockylinux",
       "color": "#10B981",
+      "category": "Linux",
+      "isMain": false
+    },
+    {
+      "name": "Open Suse",
+      "level": 80,
+      "icon": "SiOpensuse",
+      "color": "#73BA98",
       "category": "Linux",
       "isMain": false
     }
