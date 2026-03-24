@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import Image from "next/image";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function Hero({ data }: { data: any }) {
@@ -87,12 +88,12 @@ export default function Hero({ data }: { data: any }) {
             <div className="relative w-full h-full bg-neutral-200 dark:bg-neutral-800 rounded-[2rem] overflow-hidden border-4 border-white dark:border-neutral-800 shadow-2xl">
               <div className="absolute inset-0 flex items-center justify-center text-neutral-400">
                 {/* Fallback pattern/placeholder */}
-                <svg className="w-24 h-24 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                {/* <svg className="w-24 h-24 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
+                </svg> */}
               </div>
               {/* Optional: Actual image component */}
-              {/* <Image src="/avatar.jpg" alt="Profile" fill className="object-cover" priority /> */}
+              <Image src="/profile/image.png" alt="Profile" fill className="object-cover" priority />
             </div>
           </div>
         </motion.div>
