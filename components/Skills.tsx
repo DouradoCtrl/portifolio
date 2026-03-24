@@ -53,7 +53,7 @@ export default function Skills({ data }: { data: any }) {
               key={cat}
               onClick={() => setActiveTab(cat)}
               className={`px-4 py-2 rounded-full text-sm font-bold transition-all ${activeTab === cat
-                ? "bg-amber-500 text-neutral-900 shadow-md shadow-amber-500/30 font-semibold"
+                ? "bg-amber-500 text-neutral-200 shadow-md shadow-amber-500/30 font-semibold"
                 : "bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-700 font-medium"
                 }`}
             >
