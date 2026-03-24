@@ -7,9 +7,9 @@ export default function Footer() {
         <p className="text-neutral-500 dark:text-neutral-400">
           © {currentYear} DouradoCtrl. Todos os direitos reservados.
         </p>
-        <p className="text-sm mt-2 text-neutral-400 dark:text-neutral-500">
+        {/* <p className="text-sm mt-2 text-neutral-400 dark:text-neutral-500">
           Construído com Next.js, Tailwind CSS e Framer Motion.
-        </p>
+        </p> */}
       </div>
     </footer>
   );
