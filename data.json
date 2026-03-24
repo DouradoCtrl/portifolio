@@ -3,8 +3,8 @@
     "headline": "Samuel Gomes Dourado | Full Stack Dev",
     "pitch": "Desenvolvedor Full Stack especializado em ecossistema Laravel. Construindo backends robustos que alimentam interfaces modernas e reativas, focadas em performance e experiência do usuário.",
     "cta": "Projetos",
-    "githubUrl": "https://github.com/dourado-kayros",
-    "linkedinUrl": "https://linkedin.com/in/dourado-kayros"
+    "githubUrl": "https://github.com/DouradoCtrl",
+    "linkedinUrl": "https://linkedin.com/in/dourado-dev"
   },
   "about": {
     "bio": "Sou um desenvolvedor apaixonado por tecnologia, com expertise no desenvolvimento de soluções completas, desde o backend até a experiência do usuário no frontend. Tenho forte atuação na construção de arquiteturas escaláveis e no uso de práticas de DevOps para garantir entregas contínuas e seguras.",
@@ -274,12 +274,12 @@
   "socials": [
     {
       "platform": "GitHub",
-      "url": "https://github.com/dourado-kayros",
+      "url": "https://github.com/DouradoCtrl",
       "icon": "FaGithub"
     },
     {
       "platform": "LinkedIn",
-      "url": "https://linkedin.com/in/dourado-kayros",
+      "url": "https://linkedin.com/in/dourado-dev",
       "icon": "FaLinkedin"
     },
     {
