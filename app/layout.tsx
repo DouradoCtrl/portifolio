@@ -6,7 +6,7 @@ import { ThemeProvider } from "./providers";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Dev Portfolio | Full Stack",
+  title: "DouradoCtrl | Full Stack",
   description: "Portfólio de um Desenvolvedor Full Stack especializado em PHP, Python, React, Vue, e DevOps.",
 };
 
