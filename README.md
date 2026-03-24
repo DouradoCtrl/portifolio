@@ -1,6 +1,6 @@
 # Portfólio Full Stack
 
-> Acesse em: [https://portifolio-one-sandy-68.vercel.app/](https://portfolio-three-roan-34.vercel.app/)
+> Acesse em: [https://portfolio-one-sandy-68.vercel.app/](https://portfolio-three-roan-34.vercel.app/)
 
 ---
 
@@ -65,5 +65,3 @@ bun dev
 A maneira mais fácil de fazer deploy da sua aplicação Next.js é usando a [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), dos criadores do Next.js.
 
 Confira a [documentação de deploy do Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para mais detalhes.
-
-
