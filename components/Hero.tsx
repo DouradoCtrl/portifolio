@@ -44,7 +44,7 @@ export default function Hero({ data }: { data: any }) {
           <motion.h1 variants={itemVariants} className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
             <span className="block text-neutral-950 dark:text-white mb-2">Construindo experiências</span>
             <span className="block bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-purple-600 dark:from-amber-400 dark:to-purple-400">
-              Web Excepcionais
+              Eloquent's
             </span>
           </motion.h1>
           <motion.p variants={itemVariants} className="mt-4 text-xl text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto lg:mx-0 mb-8">
