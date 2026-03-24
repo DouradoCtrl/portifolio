@@ -14,19 +14,20 @@
      variáveis originais do Tailwind v4.
     */
 
-    /* Transformando a Escala Dourada em Vermelho (Red) */
-    --color-amber-100: #fee2e2;
-    --color-amber-200: #fecaca;
-    --color-amber-300: #fca5a5;
-    --color-amber-400: #f87171;
-    --color-amber-500: #ef4444; /* Nova Base Primária (Vermelho) */
-    --color-amber-600: #dc2626; /* Novo Hover Primário */
-    --color-amber-700: #b91c1c;
-    --color-amber-800: #991b1b;
-    --color-amber-900: #7f1d1d;
-    --color-amber-950: #450a0a;
+    /* Escala Cyber Red */
+    --color-amber-100: #ffe5eb;
+    --color-amber-200: #ffb8cb;
+    --color-amber-300: #ff8aab;
+    --color-amber-400: #ff5c8b;
+    --color-amber-500: #ff003c;
+    --color-amber-600: #e60036;
+    --color-amber-700: #b3002a;
+    --color-amber-800: #80001e;
+    --color-amber-900: #4d0012;
+    --color-amber-950: #26000a;
 
-    --color-neutral-950: #0a0a0a; /* Fundo/Texto pesado */
+    --color-neutral-950: #0a0a0a;
+    /* Fundo/Texto pesado */
   }
 
   .dark {
@@ -37,26 +38,26 @@
     */
 
     /* Fundo Principal no Modo Escuro (Preto Absoluto) */
-    --color-neutral-950: #000000; 
-    --color-neutral-900: #0a0a0a; 
-    
-    /* Superfícies dos Cards e Navbars escuros */
-    --color-neutral-800: #121212; 
-    
-    /* Bordas no Modo Escuro */
-    --color-neutral-700: #262626; 
+    --color-neutral-950: #000000;
+    --color-neutral-900: #0a0a0a;
 
-    /* Transformando a Escala Dourada em Vermelho no Dark Mode */
-    --color-amber-100: #fee2e2;
-    --color-amber-200: #fecaca;
-    --color-amber-300: #fca5a5;
-    --color-amber-400: #f87171; 
-    --color-amber-500: #ef4444; 
-    --color-amber-600: #dc2626; 
-    --color-amber-700: #b91c1c;
-    --color-amber-800: #991b1b;
-    --color-amber-900: #7f1d1d;
-    --color-amber-950: #450a0a;
+    /* Superfícies dos Cards e Navbars escuros */
+    --color-neutral-800: #121212;
+
+    /* Bordas no Modo Escuro */
+    --color-neutral-700: #262626;
+
+    /* Escala Cyber Red no Dark Mode */
+    --color-amber-100: #ffe5eb;
+    --color-amber-200: #ffb8cb;
+    --color-amber-300: #ff8aab;
+    --color-amber-400: #ff5c8b;
+    --color-amber-500: #ff003c;
+    --color-amber-600: #e60036;
+    --color-amber-700: #b3002a;
+    --color-amber-800: #80001e;
+    --color-amber-900: #4d0012;
+    --color-amber-950: #26000a;
   }
 
   html {
