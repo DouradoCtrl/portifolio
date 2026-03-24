@@ -83,7 +83,7 @@ export default function Contact({ data }: { data: any }) {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-neutral-500 dark:text-neutral-400">Email</p>
-                  <p className="font-semibold">contato@exemplo.com</p>
+                  <p className="font-semibold">samueldourado.dev@proton.me</p>
                 </div>
               </div>
               <div className="flex items-center gap-4 text-neutral-600 dark:text-neutral-300">
@@ -92,7 +92,7 @@ export default function Contact({ data }: { data: any }) {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-neutral-500 dark:text-neutral-400">Localização</p>
-                  <p className="font-semibold">São Paulo, Brasil</p>
+                  <p className="font-semibold">Brasília DF, Brasil</p>
                 </div>
               </div>
             </div>
