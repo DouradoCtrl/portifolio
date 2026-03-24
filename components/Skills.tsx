@@ -8,7 +8,7 @@ import * as SiIcons from "react-icons/si";
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function Skills({ data }: { data: any }) {
   const [activeTab, setActiveTab] = useState("Principais");
-  const categories = ["Principais", "Todas", "Stacks", "Banco de Dados", "Servidores", "Linux"];
+  const categories = ["Principais", "Stacks", "Banco de Dados", "Servidores", "Linux", "Todas"];
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const filteredSkills = data.skills.filter((skill: any) => {
