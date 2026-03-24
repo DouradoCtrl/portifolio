@@ -92,7 +92,7 @@ export default function Contact({ data }: { data: any }) {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-neutral-500 dark:text-neutral-400">Localização</p>
-                  <p className="font-semibold">Brasília DF, Brasil</p>
+                  <p className="font-semibold">Brasília - DF, Brasil</p>
                 </div>
               </div>
             </div>
