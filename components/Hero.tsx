@@ -53,7 +53,7 @@ export default function Hero({ data }: { data: any }) {
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-8">
             <a
               href="#projetos"
-              className="px-8 py-4 rounded-xl font-bold text-neutral-950 bg-amber-500 hover:bg-amber-700 dark:bg-amber-500 dark:hover:bg-amber-600 transition-colors shadow-lg shadow-amber-500/30 w-full sm:w-auto text-center"
+              className="px-8 py-4 rounded-xl font-bold text-neutral-200 bg-amber-500 hover:bg-amber-700 dark:bg-amber-500 dark:hover:bg-amber-600 transition-colors shadow-lg shadow-amber-500/30 w-full sm:w-auto text-center"
             >
               {data.hero.cta}
             </a>
