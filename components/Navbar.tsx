@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { FiSun, FiMoon, FiMenu, FiX } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 export default function Navbar() {
   const [mounted, setMounted] = useState(false);
@@ -33,17 +34,17 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent ${
-        isScrolled
-          ? "bg-white/80 dark:bg-neutral-950/80 backdrop-blur-md shadow-sm border-neutral-200 dark:border-neutral-800"
-          : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent ${isScrolled
+        ? "bg-white/80 dark:bg-neutral-950/80 backdrop-blur-md shadow-sm border-neutral-200 dark:border-neutral-800"
+        : "bg-transparent"
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center">
             <a href="#" className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-purple-600 dark:from-amber-400 dark:to-purple-400">
-              DouradoCtrl
+              <Image src="/logo/logo.svg" alt="Logo" width={40} height={40} />
+              {/* dourado-dev */}
             </a>
           </div>
 
