@@ -34,11 +34,11 @@ export default function Skills({ data }: { data: any }) {
     <section id="habilidades" className="py-20 px-4 sm:px-6 lg:px-8 bg-neutral-50 dark:bg-neutral-950/50">
       <div className="max-w-7xl mx-auto">
         <motion.div
-           className="text-center mb-10"
-           initial={{ opacity: 0, y: -20 }}
-           whileInView={{ opacity: 1, y: 0 }}
-           viewport={{ once: true }}
-           transition={{ duration: 0.5 }}
+          className="text-center mb-10"
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-950 dark:text-white mb-4">
             Habilidades Tecnológicas
@@ -52,11 +52,10 @@ export default function Skills({ data }: { data: any }) {
             <button
               key={cat}
               onClick={() => setActiveTab(cat)}
-              className={`px-4 py-2 rounded-full text-sm font-bold transition-all ${
-                activeTab === cat
-                  ? "bg-amber-500 text-neutral-900 shadow-md shadow-amber-500/30 font-semibold"
-                  : "bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-700 font-medium"
-              }`}
+              className={`px-4 py-2 rounded-full text-sm font-bold transition-all ${activeTab === cat
+                ? "bg-amber-500 text-neutral-900 shadow-md shadow-amber-500/30 font-semibold"
+                : "bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-700 font-medium"
+                }`}
             >
               {cat}
             </button>
@@ -87,7 +86,7 @@ export default function Skills({ data }: { data: any }) {
                   whileHover={{ y: -5 }}
                   className="bg-white dark:bg-neutral-800 rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all border border-neutral-100 dark:border-neutral-700"
                 >
-                  <div className="flex items-center gap-4 mb-4">
+                  <div className="flex items-center gap-4">
                     <div className="p-3 rounded-lg flex items-center justify-center bg-neutral-100 dark:bg-neutral-700/50" style={{ color: skill.color }}>
                       {Icon ? <Icon className="w-8 h-8" /> : <div className="w-8 h-8" />}
                     </div>
@@ -96,23 +95,8 @@ export default function Skills({ data }: { data: any }) {
                       <p className="text-xs text-neutral-400 dark:text-neutral-500 mt-0.5">{skill.category}</p>
                     </div>
                   </div>
-                  
-                  <div className="space-y-2">
-                    <div className="flex justify-between text-sm">
-                      <span className="text-neutral-500 dark:text-neutral-400 font-medium">Proficiência</span>
-                      <span className="text-neutral-700 dark:text-neutral-300 font-bold">{skill.level}%</span>
-                    </div>
-                    <div className="h-2 w-full bg-neutral-200 dark:bg-neutral-700 rounded-full overflow-hidden">
-                      <motion.div
-                        className="h-full rounded-full"
-                        style={{ backgroundColor: skill.color }}
-                        initial={{ width: 0 }}
-                        whileInView={{ width: `${skill.level}%` }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 1, delay: 0.1, ease: "easeOut" }}
-                      />
-                    </div>
-                  </div>
+
+
                 </motion.div>
               );
             })}
