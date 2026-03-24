@@ -95,8 +95,6 @@ export default function Skills({ data }: { data: any }) {
                       <p className="text-xs text-neutral-400 dark:text-neutral-500 mt-0.5">{skill.category}</p>
                     </div>
                   </div>
-
-
                 </motion.div>
               );
             })}
